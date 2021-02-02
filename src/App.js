@@ -1,4 +1,4 @@
-import mytable from "./table";
+import MyTable from "./table";
 
 function App() {
   const persons = [
@@ -20,7 +20,7 @@ function App() {
   ];
 
   const showtable = persons.map((persons, index) => {
-    return <mytable key={index} persons={persons} />;
+    return <MyTable key={index} persons={persons} />;
   });
 
   return (
